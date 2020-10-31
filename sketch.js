@@ -7,8 +7,6 @@ const Body = Matter.Body;
 var b1,b2,b3;
 var gr;
 var pa;
-var paperSprite
-var paperObject;
 
 function preload()
 {
@@ -54,6 +52,6 @@ function draw() {
 function keyPressed(){
    if(keyCode === UP_ARROW)
 
-   Matter.Body.applyForce(paperObject.body,paperObject.body.position,{x:85,y:-85});
+   Matter.Body.applyForce(pa.body,pa.body.position,{x:85,y:-85});
 
 }
